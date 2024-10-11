@@ -5,6 +5,10 @@ I've found LBNL's python wrapper for their C++ window calculation engine (https:
 
 I decided to upload this example of simulations for a thermochromic window to show how it is possible to leverage the Window calculation engine to generate data and plots that were not previously possible with window.
 
+All the python code used to run these window simulations can be seen in this pdf: (https://github.com/andyrew/Thermochromic-pywincalc/blob/main/Thermochromic.pdf)
+
+Alternatively, all the code and source data is available in this repo, insturctions to download and setup an environment for Mac are at the bottom of this readme.
+
 ### Determining the Temperature State of a Thermochromic IGU
 Thermochromic laminates are measured at different temperatures to understand the range of spectral properties of the thermochromic layer. The challenge of conveying performance of the thermochromic IGU is that performance characteristics like visible light transmission and solar heat gain coefficient depend on the environmental charateristics, including outside air temperature, wind speed, wind dirrection, solar radiation, and solar incident angle. In order to determine the temperature state (and VLT and SHGC) of a thermochromic IGU, we need to simulate the temperature under environmental conditions for the measured optical states. Then we can find the equilibrium state for those environmental conditions by looking to see where the simulated temperature matches the temperature at which the optical properties were measured. In the plot below the blue line shows the simulated temperature (y-axis) for the measurement state temperatures (x-axis). The equillibrium temperature is where the blue line crosses the orange line (and the simulated and measured temperatures match). 
 
