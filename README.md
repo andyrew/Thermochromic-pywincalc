@@ -19,7 +19,7 @@ Optical properties of thermochromic laminates are measured at different temperat
 </p>
 
 ### Chart of Thermochromic IGU Properties
-The charts below show for a give wind speed (0 m/s) and solar incidence angle (0°) what the thermochromic layer temperature would be for different exterior air temperatures (x-axis) and solar insolation (y-axis). These calculations were performed with pywincalc by creating 108 custom environments (12 exterior temperature x 9 solar radiation) and layer performance for 19 laminate temperatures (5°C - 95°C, in 2.5°C increments). For each environmental condition the temperature of the laminate was calculated using the absorption properities of the 18 thermochromic layer temperatures. The correct result for the environmental condition is where the simulated laminate temperature matches the themperature of the optical properties.
+The charts below show what the thermochromic layer temperature would be for different exterior air temperatures (x-axis) and solar insolation (y-axis). These calculations were performed with pywincalc by creating 108 custom environments (12 exterior temperature x 9 solar radiation) and thermochromic optical performance for 37 laminate temperatures (5°C - 95°C, in 2.5°C increments). For each environmental condition the temperature of the laminate was calculated using the absorption properities of the 37 thermochromic layer temperatures and the equilibrium temperature was determined as described above.
 
 
 
